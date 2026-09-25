@@ -1,0 +1,17 @@
+export const NEXUS_RESPONSE_HEADERS = {
+  cache: "X-Nexus-Cache",
+  cacheHit: "X-Nexus-Cache-Hit",
+  compression: "X-Nexus-Compression",
+  costSaved: "X-Nexus-Cost-Saved",
+  decision: "X-Nexus-Decision",
+  fallbackAttempts: "X-Nexus-Fallback-Attempts",
+  latencyMs: "X-Nexus-Latency-Ms",
+  model: "X-Nexus-Model",
+  progress: "X-Nexus-Progress",
+  provider: "X-Nexus-Provider",
+  requestId: "X-Nexus-Request-Id",
+  responseCost: "X-Nexus-Response-Cost",
+  tokensIn: "X-Nexus-Tokens-In",
+  tokensOut: "X-Nexus-Tokens-Out",
+  version: "X-Nexus-Version",
+} as const;

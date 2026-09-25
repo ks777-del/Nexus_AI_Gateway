@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="nexus-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+  <path d="M16 2L2 10v12l14 8 14-8V10L16 2zm0 4.6l10 5.7v11.4L16 29.4l-10-5.7V12.3l10-5.7z" fill="url(#nexus-grad)" />
+  <circle cx="16" cy="10" r="2.5" fill="url(#nexus-grad)" />
+  <circle cx="10" cy="20" r="2.5" fill="url(#nexus-grad)" />
+  <circle cx="22" cy="20" r="2.5" fill="url(#nexus-grad)" />
+  <path d="M16 10L10 20M16 10L22 20M10 20L22 20" stroke="url(#nexus-grad)" stroke-width="2" stroke-linecap="round" />
+</svg>
